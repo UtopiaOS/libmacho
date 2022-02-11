@@ -30,7 +30,7 @@
 #define _OS_OSBYTEORDER_H
 
 #include <stdint.h>
-#include <covenat/_OSByteOrder.h>
+#include <covenat/kern/_OSByteOrder.h>
 
 #define OS_SWAP_CONST_INT16(x) __UTOPIA_OS_SWAP_CONST_INT16(x)
 #define OS_SWAP_CONST_INT32(x) __UTOPIA_OS_SWAP_CONST_INT32(x)
