@@ -44,14 +44,14 @@ static inline
 uint32_t
 _os_swap_int32(uint32_t data)
 {
-    return OS_SWAP_CONST32(data);
+    return OS_SWAP_CONST_INT32(data);
 }
 
 static inline
 uint64_t
 _os_swap_int64(uint64_t data)
 {
-    return OS_SWAP_CONST64(data);
+    return OS_SWAP_CONST_INT64(data);
 }
 
 /* Functions for byte reversed loads. */
