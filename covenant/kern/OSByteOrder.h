@@ -220,9 +220,9 @@ _os_write_int64(volatile void *base, uintptr_t byte_offset, uint64_t data)
 
 /* Host endianess to big endian byte swapping macros for constants. */
 
-#define os_swap_host_to_big_const_int16(x) OS_SWAP_CONST_INT1616(x)
-#define os_swap_host_to_big_const_int32(x) OS_SWAP_CONST_INT1632(x)
-#define os_swap_host_to_big_const_int64(x) OS_SWAP_CONST_INT1664(x)
+#define os_swap_host_to_big_const_int16(x) OS_SWAP_CONST_INT16(x)
+#define os_swap_host_to_big_const_int32(x) OS_SWAP_CONST_INT32(x)
+#define os_swap_host_to_big_const_int64(x) OS_SWAP_CONST_INT64(x)
 
 /* Generic host endianess to big endian byte swapping functions. */
 
@@ -244,9 +244,9 @@ _os_write_int64(volatile void *base, uintptr_t byte_offset, uint64_t data)
 
 /* Big endian to host endianess byte swapping macros for constants. */
 
-#define os_swap_big_to_host_const_int16(x) OS_SWAP_CONST_INT1616(x)
-#define os_swap_big_to_host_const_int32(x) OS_SWAP_CONST_INT1632(x)
-#define os_swap_big_to_host_const_int64(x) OS_SWAP_CONST_INT1664(x)
+#define os_swap_big_to_host_const_int16(x) OS_SWAP_CONST_INT16(x)
+#define os_swap_big_to_host_const_int32(x) OS_SWAP_CONST_INT32(x)
+#define os_swap_big_to_host_const_int64(x) OS_SWAP_CONST_INT64(x)
 
 /* Generic big endian to host endianess byte swapping functions. */
 
